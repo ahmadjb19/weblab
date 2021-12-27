@@ -119,3 +119,14 @@ tr:hover{
     align-items: center;
     margin-bottom: 100px;
 }
+.my-protofolio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.my-protofolio img{
+    box-sizing: border-box;
+    width: 33.33%;
+    padding: 25px;
+}
