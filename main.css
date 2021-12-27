@@ -87,9 +87,16 @@ tr:hover{
     margin-top: 15px;
 }
 #navbar{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #0b0999;
     position: sticky;
-    top: 0;
+    top: 0px;
+
 }
+
 .footer{
     position: fixed;
     left: 0;
@@ -171,4 +178,49 @@ input[type="submit"]{
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+}
+input[type="radio"]{
+    width: auto;
+}
+input[type="checkbox"]{
+    width: auto;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 'side main main main';
+    margin-bottom: 100px;
+}
+.article-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sidebar ul{
+
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    color: #000;
+}
+
+
+.sidebar a{
+    display: block;
+    color: #a80000;
+    padding: 8px 16px;
+    text-decoration: none;
+    width: 200px;
+}
+
+.sidebar a:hover{
+    background-color: #535353;
+    color:     #B0E0E6;
+}
+
+
+p.L:first-letter {
+    font-size: 50px;
+    font-weight: bold;
 }
