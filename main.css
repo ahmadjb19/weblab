@@ -86,3 +86,7 @@ tr:hover{
     color: white;
     margin-top: 15px;
 }
+#navbar{
+    position: sticky;
+    top: 0;
+}
