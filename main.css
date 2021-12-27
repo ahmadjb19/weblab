@@ -130,3 +130,13 @@ tr:hover{
     width: 33.33%;
     padding: 25px;
 }
+@media (max-width:850px){
+    .my-protofolio img{
+        width:50%;
+    }
+}
+@media (max-width: 500px) {
+    .my-protofolio img{
+        width:100%;
+    }
+}
