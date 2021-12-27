@@ -106,3 +106,9 @@ tr:hover{
 .content-form h1{
     margin-bottom: 35px;
 }
+.form-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
