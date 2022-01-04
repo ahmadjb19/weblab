@@ -39,3 +39,15 @@ console.log('a == b =', a == b); // menampilkan false
 console.log('a != b =', a != b); // menampilkan true
 console.log('a === b =', a === b); // menampilkan false
 console.log('a !== b =', a !== b); // menampilkan false
+
+// oprator logika
+console.log('true && true =', true && true); // menampilkan true
+console.log('true && false =', true && false); // menampilkan false
+console.log('false && true =', false && true); // menampilkan false
+console.log('false && false =', false && false); // menampilkan false
+console.log('true || true =', true || true); // menampilkan true
+console.log('true || false =', true || false); // menampilkan true 
+console.log('false || true =', false || true); // menampilkan true 
+console.log('false || false =', false || false); // menampilkan false
+console.log('!true =', !true); // menampilkan false
+console.log('!false =', !false); // menampilkan true
