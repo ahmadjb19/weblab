@@ -82,3 +82,22 @@ let p = 10
 let l = 6
 let t = 8
 console.log(volume(p, l, t))
+
+var buah = ["Apel", "Jeruk", "Mangga", "Pisang"];
+console.log(buah[0]); // menampilkan Apel
+console.log(buah[1]); // menampilkan Jeruk
+console.log(buah[2]); // menampilkan Mangga
+console.log(buah[3]); // menampilkan Pisang
+buah[1] = "Anggur"; // mengganti Jeruk menjadi Anggur
+console.log(buah); // mengecek perubahan
+buah.push("Pepaya"); // menambah Pepaya di akhir Array
+console.log(buah); // mengecek perubahan
+buah.pop("Pepaya"); // melihat dan menghapus item dari Array
+console.log(buah); // mengecek perubahan
+console.log('Panjang Array = ', buah.length); // menghitung panjang Array
+buah.unshift("Semangka"); // menambah Semangka di awal Array
+console.log(buah); // mengecek perubahan
+buah.shift(); // menampilkan dan menghapus item awal dari array
+console.log(buah); // mengecek perubahan
+console.log(buah.sort()); // mengurutkan Array
+console.log(buah.reverse()); // membalikkan urutan Array
