@@ -52,28 +52,32 @@ console.log('false || false =', false || false); // menampilkan false
 console.log('!true =', !true); // menampilkan false
 console.log('!false =', !false); // menampilkan true
 
+// rumus luas persegi
 function luas(sisi){
-    let luas_persegi = sisi * sisi;
-    return `luas persegi =: ${luas_persegi}`
+    let luas_persegi = sisi * sisi; // mengitung luas persegi
+    return `luas persegi =: ${luas_persegi}` // menampilkan hasil
 }
-
+//set nilai
 let sisi = 6
 console.log(luas(sisi))
 
+//rumus luas segitiga
 function luas_segitiga(alas, tinggi){
-    let luas_segitiga = 0.5 * alas * tinggi;
-    return `luas segitiga = ${luas_segitiga}`
+    let luas_segitiga = 0.5 * alas * tinggi; // menghitung luas segitiga
+    return `luas segitiga = ${luas_segitiga}` // menampilkan hasil
 }
 
-let alas = 5
+//nilai
+let alas = 5    
 let tinggi = 10
 console.log(luas_segitiga(alas, tinggi))
 
+//rumus volume balok
 function volume(p, l, t){
-    let volume =p * l * t;
-    return `Volume Balok = ${volume}`
+    let volume =p * l * t; //menghitung volume balok
+    return `Volume Balok = ${volume}` //menampilkan hasil
 }
-
+ // set nilai
 let p = 10
 let l = 6
 let t = 8
