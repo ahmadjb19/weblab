@@ -127,3 +127,14 @@ console.log(profil["kontak"]); // menampilkan kontak
 console.log(profil["hobby"]); // menampilkan hoby
 console.log(profil["namaLengkap"]()); // menampilkan nama lengkap
 
+//anomali
+
+console.log(0.1 + 0.2 == 0.3); // menampilkan false karena hasil penjumlahannya tidak sama
+console.log(1 + "1"); // menampilkan 11 karena merupakan penggabungan angka dan string
+console.log(1 - "1"); // menampilkan 0 karena operator pengurangan hanya untuk numerik, setelah itu keduanya akan diubah ke numerik
+console.log(1 < 2 < 3); // menampilkan true karena perbandingannya benar
+console.log(3 > 2 > 1); // menampilkan false karena perbandingannya salah
+console.log(null == 0); // menampilkan false karena null tidak sama dengan 0 int
+console.log(null > 0); // menampilkan false karena null=+0 sama dengan 0
+console.log(null >= 0); // menampilkan true karena null > = 0
+
