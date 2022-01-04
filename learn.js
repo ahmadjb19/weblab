@@ -101,3 +101,29 @@ buah.shift(); // menampilkan dan menghapus item awal dari array
 console.log(buah); // mengecek perubahan
 console.log(buah.sort()); // mengurutkan Array
 console.log(buah.reverse()); // membalikkan urutan Array
+
+let profil = {
+    namaDepan : "Ahmad",
+    namaBelakang : "Jadibullah",
+    alamat : "karya 1 jln.Rahmat kec.Bukit Raya",
+    kontak : "+6282288875421",
+    hobby : "Volyball",
+    namaLengkap : function(){
+        return this.namaDepan + " " + this.namaBelakang;
+    }
+}
+
+console.log(profil.namaDepan); // menampilkan nama depan
+console.log(profil.namaBelakang); // menampilkan nama belakang
+console.log(profil.alamat); // menampilkan alamat
+console.log(profil.kontak); // menampilkan kontak
+console.log(profil.hobby); // menampilkan hobby
+console.log(profil.namaLengkap()); // menampilkan nama lengkap
+
+console.log(profil["namaDepan"]); // menampilkan nama depan
+console.log(profil["namaBelakang"]); // menampilkan nama belakang
+console.log(profil["alamat"]); // menampilkan alamat
+console.log(profil["kontak"]); // menampilkan kontak
+console.log(profil["hobby"]); // menampilkan hoby
+console.log(profil["namaLengkap"]()); // menampilkan nama lengkap
+
