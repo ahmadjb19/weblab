@@ -51,3 +51,30 @@ console.log('false || true =', false || true); // menampilkan true
 console.log('false || false =', false || false); // menampilkan false
 console.log('!true =', !true); // menampilkan false
 console.log('!false =', !false); // menampilkan true
+
+function luas(sisi){
+    let luas_persegi = sisi * sisi;
+    return `luas persegi =: ${luas_persegi}`
+}
+
+let sisi = 6
+console.log(luas(sisi))
+
+function luas_segitiga(alas, tinggi){
+    let luas_segitiga = 0.5 * alas * tinggi;
+    return `luas segitiga = ${luas_segitiga}`
+}
+
+let alas = 5
+let tinggi = 10
+console.log(luas_segitiga(alas, tinggi))
+
+function volume(p, l, t){
+    let volume =p * l * t;
+    return `Volume Balok = ${volume}`
+}
+
+let p = 10
+let l = 6
+let t = 8
+console.log(volume(p, l, t))
