@@ -26,3 +26,16 @@ console.log('x++ =', x++); // menampilkan 8
 console.log('++x =', ++x); // menampilkan 10
 console.log('x-- =', x--); // menampilkan 10
 console.log('--x =', --x); // menampilkan 8
+
+// oprator perbandingan
+let a = 8;
+let b = 4;
+console.log(a, b); // menampilkan 8, 4
+console.log('a > b =', a > b); // menampilkan true
+console.log('a < b =', a < b); // menampilkan false
+console.log('a >= b =', a >= b); // menampilkan true
+console.log('a <= b =', a <= b); // menampilkan false
+console.log('a == b =', a == b); // menampilkan false
+console.log('a != b =', a != b); // menampilkan true
+console.log('a === b =', a === b); // menampilkan false
+console.log('a !== b =', a !== b); // menampilkan false
